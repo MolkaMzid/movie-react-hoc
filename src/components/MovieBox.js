@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HOC from './HOC';
 class MovieBox extends Component {
     constructor(props) {
         super(props);
@@ -49,4 +50,4 @@ class MovieBox extends Component {
     }
 }
  
-export default MovieBox;
+export default HOC (MovieBox);
